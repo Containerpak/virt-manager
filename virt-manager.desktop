@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Virtual Machine Manager
+Comment=Manage virtual machines through libvirt.
+Exec=virt-manager %U
+Icon=virt-manager
+Terminal=false
+Categories=System;Emulator;
+
