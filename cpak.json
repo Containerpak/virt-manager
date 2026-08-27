@@ -1,10 +1,10 @@
 {
-  "$schema": "https://raw.githubusercontent.com/Containerpak/cpak/v2/schema/manifest-v2.json",
-  "manifest_version": "2.0",
+  "$schema": "https://raw.githubusercontent.com/Containerpak/cpak/v2/schema/manifest-v3.json",
+  "manifest_version": "3.0",
   "name": "Virtual Machine Manager",
   "description": "Manage virtual machines through libvirt.",
   "version": "5.1.0",
-  "image": "ghcr.io/containerpak/virt-manager:main",
+  "image": "ghcr.io/containerpak/virt-manager@sha256:637c0fef45f94965cb60ae88e6004e4d175ced51d563e6bf907537cdf0c8c6fa",
   "binaries": [
     "/usr/bin/virt-manager"
   ],
@@ -15,16 +15,11 @@
   "addons": [],
   "idle_time": 0,
   "override": {
-    "socketX11": true,
     "socketWayland": true,
     "socketPulseAudio": false,
-    "socketSessionBus": true,
-    "socketSystemBus": true,
     "socketSshAgent": false,
     "socketCups": false,
     "socketGpgAgent": false,
-    "socketAtSpiBus": true,
-    "socketBluetooth": false,
     "deviceDri": true,
     "deviceKvm": true,
     "deviceShm": true,
@@ -57,8 +52,6 @@
     "memoryMaxMB": 0,
     "cpuQuota": 0,
     "pidsMax": 0,
-    "asRoot": false,
-    "allowedHostCommands": []
+    "asRoot": false
   }
 }
-
