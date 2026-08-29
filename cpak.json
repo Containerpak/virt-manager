@@ -4,7 +4,7 @@
   "name": "Virtual Machine Manager",
   "description": "Manage virtual machines through libvirt.",
   "version": "5.1.0",
-  "image": "ghcr.io/containerpak/virt-manager@sha256:8f5a8efb78edf8986468ba4d4a01f1b90f74dc05afe64abdfd9866a00beea2fc",
+  "image": "ghcr.io/containerpak/virt-manager@sha256:63962c13080aa58cde7f6679b3c115baa534b3b438713a6cd1f1a0acd7de762e",
   "binaries": [
     "/usr/bin/virt-manager"
   ],
